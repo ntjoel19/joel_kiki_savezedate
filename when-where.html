@@ -20,16 +20,6 @@
     />
     <meta name="author" content="Jean Joel NTEPP" />
 
-    <meta property="og:title" content="" />
-    <meta property="og:image" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:site_name" content="" />
-    <meta property="og:description" content="" />
-    <meta name="twitter:title" content="" />
-    <meta name="twitter:image" content="" />
-    <meta name="twitter:url" content="" />
-    <meta name="twitter:card" content="" />
-
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="shortcut icon" href="favicon.ico" />
 
@@ -146,8 +136,8 @@
                     <h3>Bénédiction nuptiale</h3>
                     <p>
                       <strong
-                        >Samedi, 02 Juillet 2022, 13H00 • Eglise Evangélique
-                        Luthérienne</strong
+                        >Samedi, 02 Juillet 2022, 12H00 • Eglise Evangélique
+                        Luthérienne du Cameroun • Bertoua</strong
                       >
                     </p>
                     <p>Située au marché Ndoubi</p>
@@ -164,11 +154,10 @@
                     <h3>Cocktail</h3>
                     <p>
                       <strong
-                        >Samedi, 02 Juillet 2022, 09H00 PM • Salle de fête de
-                        ...</strong
+                        >Samedi, 02 Juillet 2022, 17H00 précise • Salle de fête Christiana Prestige • Bertoua</strong
                       >
                     </p>
-                    <p>Localisation de la salle.</p>
+                    <p>Quartier Météo, proche de la mairie de Bertoua 2<sup>ème</sup>.</p>
                   </div>
                 </div>
               </div>
@@ -183,7 +172,18 @@
         >
           <div class="overlay"></div>
           <div class="container">
-            <div class="row animate-box">
+            <div class="attend row animate-box">
+              <div class="col-md-8 col-md-offset-2 text-center heading-section">
+                <h2>Merci d'avoir accepté d'être des nôtres</h2>
+                <p>
+                  Que Dieu vous bénisse et vous garde.
+                </p>
+              </div>
+            </div>
+            <div class="attend1 row animate-box">
+              <div class="col-md-10 col-md-offset-1"></div>
+            </div>
+            <div class="not_attend row animate-box">
               <div class="col-md-8 col-md-offset-2 text-center heading-section">
                 <h2>Serez-vous là</h2>
                 <p>
@@ -192,17 +192,17 @@
                 </p>
               </div>
             </div>
-            <div class="row animate-box">
+            <div class="not_attend row animate-box">
               <div class="col-md-10 col-md-offset-1">
-                <form class="form-inline">
+                <form id="form" class="form-inline">
                   <div class="col-md-4 col-sm-4">
                     <div class="form-group">
                       <label for="name" class="sr-only">Name</label>
                       <input
-                        type="name"
+                        type="text"
                         class="form-control"
                         id="name"
-                        placeholder="Name"
+                        placeholder="Votre nom"
                       />
                     </div>
                   </div>
@@ -210,10 +210,10 @@
                     <div class="form-group">
                       <label for="email" class="sr-only">Email</label>
                       <input
-                        type="email"
+                        type="tel"
                         class="form-control"
-                        id="email"
-                        placeholder="Email"
+                        id="tel"
+                        placeholder="Num. Téléphone"
                       />
                     </div>
                   </div>
@@ -243,10 +243,7 @@
       <!-- END fh5co-page -->
     </div>
     <!-- END fh5co-wrapper -->
-
-    <!-- Google Map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-    <!-- jQuery -->
     <script src="dist/scripts.min.js"></script>
+    <script src="dist/form-action.js"></script>
   </body>
 </html>
